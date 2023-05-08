@@ -20,9 +20,7 @@ header{
 .col_pink{
     background-color: pink;
     height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 
@@ -37,12 +35,11 @@ header{
 
 .background_green{
     background-color: #1ABC9C;
-    height: 250px;
 }
 
 .background_white{
     background-color: white;
-    height: 250px;
+
 }
 
 .background_grey{
