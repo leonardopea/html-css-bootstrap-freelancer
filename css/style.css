@@ -3,3 +3,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*///////////////////////////////////////////////////
+                     HEADER
+ ///////////////////////////////////////////////////*/
+
+
+
+header{
+    background-color: #2C3E50;
+    height: 50px;
+    color: white;
+    font-weight: 800;
+}
+.col_pink{
+    background-color: pink;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/*///////////////////////////////////////////////////
+                     MAIN
+ ///////////////////////////////////////////////////*/
+
+
+
+
+.background_green{
+    background-color: #1ABC9C;
+    height: 250px;
+}
+
+.background_white{
+    background-color: white;
+    height: 250px;
+}
+
+.background_grey{
+    background-color: #3A546D;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////////////////
+                     FOOTER
+ ///////////////////////////////////////////////////*/
+
+
+
+footer{
+    background-color: #2C3E50;
+    height: 50px;
+}
