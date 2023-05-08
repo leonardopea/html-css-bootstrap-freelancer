@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 /*///////////////////////////////////////////////////
                      HEADER
  ///////////////////////////////////////////////////*/
@@ -12,7 +14,6 @@
 
 header{
     background-color: #2C3E50;
-    height: 50px;
     color: white;
     font-weight: 800;
 }
