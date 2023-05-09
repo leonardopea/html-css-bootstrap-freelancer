@@ -28,6 +28,7 @@ header{
 }
 .col_pink{
     background-color: pink;
+    height: 50px;
 
     
 }
@@ -78,7 +79,7 @@ li{
 }
 
 #img_avatar{
-    width: 30vh
+    width: 30%
 }
 .star{
     display: flex;
@@ -135,7 +136,11 @@ h2{
 }
 
 
-
+.content_white{
+    color: white;
+    font-size: 18px;
+    margin: 0 auto;
+}
 
 
 
