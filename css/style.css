@@ -5,7 +5,10 @@
 }
 
 .col_margin{
-    margin: 20px;
+    margin: 20px 0px;
+}
+.margin_bottom{
+    margin-bottom: 40px;
 }
 header, h1{
     color: white;
@@ -86,7 +89,14 @@ li{
 .riga_bianca{
     width: 100px;
     color: white;
-    border-top: 10px solid white;
+    border-top: 5px solid white;
+    opacity: 1;
+    
+}
+
+h2{
+    font-size: 14px;
+    color: white;
     
 }
 
@@ -101,14 +111,33 @@ li{
 
 
 
-
-
-
+/* PORTFOLIO */
 
 .background_white{
     background-color: white;
 
 }
+.h1_black{
+    color: black;
+    font-weight: 800;
+}
+
+.riga_nera{
+    width: 100px;
+    color: rgb(0, 0, 0);
+    border-top: 5px solid rgb(0, 0, 0);
+    opacity: 1;
+}
+
+.img_portfolio{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
 
 .background_grey{
     background-color: #3A546D;
