@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 
+.col_margin{
+    margin: 20px;
+}
+header, h1{
+    color: white;
+    font-weight: 800;
+}
 
-
+   
 /*///////////////////////////////////////////////////
                      HEADER
  ///////////////////////////////////////////////////*/
@@ -14,18 +21,47 @@
 
 header{
     background-color: #2C3E50;
-    color: white;
-    font-weight: 800;
+    
 }
 .col_pink{
     background-color: pink;
-    height: 50px;
+
     
 }
 
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15px;
+    align-items: center;
+}
 
+li{
+    list-style: none;
+}
+.hamburger{
+    border: 2px solid rgb(166, 163, 163);
+    border-radius: 2px;
+    padding: 5px 10px;
+    display: none;
+}
+.font_size{
+    font-size: 12px;
+}
 
+.visible{
+    display: block;
+}
 
+@media screen and (max-width: 768px) {
+    .visible{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
 /*///////////////////////////////////////////////////
                      MAIN
  ///////////////////////////////////////////////////*/
@@ -37,9 +73,38 @@ header{
     background-color: #1ABC9C;
 
 }
-.col_margin{
-    margin: 20px;
+
+#img_avatar{
+    width: 30vh
 }
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.riga_bianca{
+    width: 100px;
+    color: white;
+    border-top: 10px solid white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .background_white{
     background-color: white;
 
