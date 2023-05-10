@@ -142,13 +142,17 @@ h2{
     margin: 0 auto;
 }
 
-button{
+.bottone_download{
     background-color: transparent;
     color: white;
     border: 2px solid white;
     border-radius: 2px;
     font-size: 18px;
     padding: 5px 10px;
+    text-decoration: none;
+}
+.bottone_download:hover{
+    color: black;
 }
 .download{
     margin-right: 5px;
@@ -166,22 +170,50 @@ button{
     color: #1ABC9C;
     text-decoration: none;
 }
+.green:hover{
+    color: #12866f;
+}
 
-.circle, .circle2{
+.circle{
     border-radius: 100%;
     border: 1px solid white;
-    margin-left: 10px;
-}
-.circle{
-    padding: 14px 16px;
+    padding: 8px 8px;
 }
 
-.circle2{
-    padding: 14px 15px;
-}
 .text_no{
     text-decoration: none;
 }
+
+
+
+
+/* contact me area */
+
+
+input, textarea{
+    margin: 10px 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.send_button{
+    background-color: #1ABC9C ;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+}
+
+.send_button:hover{
+    background-color: #12866f ;
+}
+
+
+
+
+
+
 /*///////////////////////////////////////////////////
                      FOOTER
  ///////////////////////////////////////////////////*/
@@ -190,5 +222,6 @@ button{
 
 footer{
     background-color: #2C3E50;
+   
     
 }
