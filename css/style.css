@@ -54,8 +54,11 @@ li{
     font-size: 12px;
 }
 
-.visible{
-    display: block;
+.visible:hover{
+    scale: 1.1;
+    color: yellow;
+    
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
